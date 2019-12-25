@@ -11,10 +11,12 @@ public class ItemDestroy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (Camera.main.gameObject.transform.position.z > this.transform.position.z) {
+			Destroy (this.gameObject);
+		}
 	}
-
+	/*	
 	void OnBecameInvisible () {
 		Destroy (this.gameObject);
-	}
+	}*/
 }
