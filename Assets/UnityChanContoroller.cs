@@ -9,7 +9,7 @@ public class UnityChanContoroller : MonoBehaviour {
 	//Unityちゃんを移動させるコンポーネントを入れる
 	private Rigidbody myRigidbody;
 	//前進するための力
-	private float forwardForce = 600.0f;
+	private float forwardForce = 400.0f;
 	//左右に移動するための力
 	private float turnForce = 500.0f;
 	//ジャンプするための力
